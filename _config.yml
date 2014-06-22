@@ -98,3 +98,15 @@ google_analytics_tracking_id: UA-52094096-1
 
 # Facebook Like
 facebook_like: true
+
+# ----------------------- #
+#   Custom Variables      #
+# ----------------------- #
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+        values:
+            company: SugarCRM
+            job_title: Senior Software Engineer
