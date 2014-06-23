@@ -5,11 +5,13 @@ comments: false
 sharing: false
 footer: true
 ---
-## Who Is {{site.title}}?
-That's my porn name. My real name is {{site.author}} and I am currently a {{page.job_title}} at {{page.company}}.
+## What Does ```{{site.title}}``` Mean?
+The pipe ```|``` character on Unix systems is used to take output from one command and direct it as input to another command. In the case of this blog, I'm am directing knowledge from my head to the web, where you reside. It is up to you -- like any program receiving the input -- to decide what to do with that information. In layman's terms you can think of the the blog title as, "from me to you."
 
 ## About Me
 ```who_i_am = ((developer < perpetual_student && die_hard_orioles_fan) < (husband && father));```
+
+My name is {{site.author}} and I am currently a {{page.job_title}} at {{page.company}}.
 
 The dawn of the internet happened around the time I was 10 years old. Being the oldest child, naturally, I was the first to get a personal computer in our house that was modern enough to really take advantage. I grew up on Prodigy and then AOL, surfing the web and playing games -- oh, and learning to be my family's resident IT guy.
 
