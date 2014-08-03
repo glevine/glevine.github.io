@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>http://glevine.github.io/blog/2014/08/02/setting-up-an-access-point-with-the-same-ssid-for-whole-house-roaming/</loc>
+    <lastmod>2014-08-02T20:56:04-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://glevine.github.io/blog/2014/06/22/how-to-replace-bathroom-accent-tiles/</loc>
     <lastmod>2014-06-22T14:07:57-04:00</lastmod>
     <priority>0.8</priority>
@@ -11,21 +17,21 @@
   
   <url>
     <loc>http://glevine.github.io/blog/archives/</loc>
-    <lastmod>2014-06-22T21:13:51-04:00</lastmod>
+    <lastmod>2014-08-03T13:30:04-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://glevine.github.io/</loc>
-    <lastmod>2014-06-22T21:13:51-04:00</lastmod>
+    <lastmod>2014-08-03T13:30:04-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://glevine.github.io/about/</loc>
-    <lastmod>2014-06-22T21:13:51-04:00</lastmod>
+    <lastmod>2014-08-03T13:30:04-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
