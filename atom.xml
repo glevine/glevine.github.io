@@ -4,7 +4,7 @@
   <title><![CDATA[head | web]]></title>
   <link href="http://glevine.github.io/atom.xml" rel="self"/>
   <link href="http://glevine.github.io/"/>
-  <updated>2014-08-03T13:30:04-04:00</updated>
+  <updated>2014-08-03T13:43:47-04:00</updated>
   <id>http://glevine.github.io/</id>
   <author>
     <name><![CDATA[Greg Levine]]></name>
@@ -24,9 +24,9 @@
 
 <h2>Position Access Points</h2>
 
-<p>I wanted to be prepared when we started to build our new house, particularly because we had a lot more area to cover. I didn&rsquo;t want to spend the money to run data lines to every room in the house &mdash; especially because wired clients are going extinct &mdash; and I wanted to be able to walk throughout the house without ever dropping wifi. So I needed to place wireless access points in the right locations and have them broadcast the same SSID.</p>
+<p>I wanted to be prepared when we started to build our new house, particularly because we had a lot more area to cover. I didn&rsquo;t want to spend the money to run data lines to every room in the house &ndash; especially because wired clients are going extinct &ndash; and I wanted to be able to walk throughout the house without ever dropping wifi. So I needed to place wireless access points in the right locations and have them broadcast the same SSID.</p>
 
-<p>I spent a fair amount of time drawing up various configurations to supply data lines to rooms where I knew heavy streaming would occur (family room, bonus room, and master bedroom) while paying close attention to where the need for a data line overlapped with a good location for an additional router &mdash; to reduce the number of lines I was adding. I settled on adding data lines in the study, family room, bonus room, and master bedroom.</p>
+<p>I spent a fair amount of time drawing up various configurations to supply data lines to rooms where I knew heavy streaming would occur (family room, bonus room, and master bedroom) while paying close attention to where the need for a data line overlapped with a good location for an additional router &ndash; to reduce the number of lines I was adding. I settled on adding data lines in the study, family room, bonus room, and master bedroom.</p>
 
 <p>The primary router is located in a closet to the back of one side of the house, where the structured wiring cabinet is located. While it is not ideal to have a router hidden in a closet like that, it allows for the primary router to be close to the cable modem and to the switch supplying the ports throughout the rest of the house; cable lengths can have a dramatic effect on the performance of your network. I also knew that the positions of the access points in relation to the most used rooms would mean that the access points would be relied on more heavily than the primary router for wifi.</p>
 
@@ -40,9 +40,9 @@
 </ol>
 
 
-<p>With the first two routers positioned near the perimeter of the house &mdash; as is the master bedroom on the second floor &mdash; we actually got a decent signal for surfing and reading before bed. But once again, the singal was weak to non-existent in our daughter&rsquo;s bedroom. Luckily, the bonus room is located at the center of the house. By putting the third access point in the bonus room, there isn&rsquo;t a corner in the house where we can&rsquo;t get on the wifi.</p>
+<p>With the first two routers positioned near the perimeter of the house &ndash; as is the master bedroom on the second floor &ndash; we actually got a decent signal for surfing and reading before bed. But once again, the singal was weak to non-existent in our daughter&rsquo;s bedroom. Luckily, the bonus room is located at the center of the house. By putting the third access point in the bonus room, there isn&rsquo;t a corner in the house where we can&rsquo;t get on the wifi.</p>
 
-<p>One caveat is that the bonus room is situated at the top of the stairs. So it is very likely that the broadcast overlap is bad between the two additional access points. For this reason &mdash; and because it&rsquo;s just a good idea &mdash; I separated their channels. The primary router is on channel 157, the study router is on channel 153, and the bonus room router is on channel 161 (For 2.4GHz routers, channels 1, 6, and 11 are recommended.).</p>
+<p>One caveat is that the bonus room is situated at the top of the stairs. So it is very likely that the broadcast overlap is bad between the two additional access points. For this reason &ndash; and because it&rsquo;s just a good idea &ndash; I separated their channels. The primary router is on channel 157, the study router is on channel 153, and the bonus room router is on channel 161 (For 2.4GHz routers, channels 1, 6, and 11 are recommended.).</p>
 
 <h2>Configure an Access Point</h2>
 
@@ -54,7 +54,7 @@
 
 <p><strong>Access Points</strong> <a href="http://support.netgear.com/product/WNDR3700v3" title="NETGEAR WNDR3700v3">NETGEAR WNDR3700v3</a></p>
 
-<p>Your newest router should be used as your primary router or else you won&rsquo;t be able to take advantage of some of its newer features. And it is recommended that you only use routers by the same manufacturer to ensure compatibility &mdash; unless you know what you are doing.</p>
+<p>Your newest router should be used as your primary router or else you won&rsquo;t be able to take advantage of some of its newer features. And it is recommended that you only use routers by the same manufacturer to ensure compatibility &ndash; unless you know what you are doing.</p>
 
 <h3>Configure, Install, Repeat</h3>
 
@@ -75,19 +75,19 @@
 <li>Configure your access point&rsquo;s 2.4GHz wireless band.
 
 <ul>
-<li><strong>SSID</strong> &lt;network_name></li>
+<li><strong>SSID</strong> <network_name></li>
 <li><strong>Channel</strong> Auto</li>
 <li><strong>Mode</strong> Up to 145 Mbps</li>
-<li><strong>WPA2-PSK [AES]</strong> &lt;network_password></li>
+<li><strong>WPA2-PSK [AES]</strong> <network_password></li>
 </ul>
 </li>
 <li>Configure your access point&rsquo;s 5GHz wireless band.
 
 <ul>
-<li><strong>SSID</strong> &lt;network_name>-5g</li>
+<li><strong>SSID</strong> <network_name>-5g</li>
 <li><strong>Channel</strong> 161</li>
 <li><strong>Mode</strong> Up to 145 Mbps</li>
-<li><strong>WPA2-PSK [AES]</strong> &lt;network_password></li>
+<li><strong>WPA2-PSK [AES]</strong> <network_password></li>
 </ul>
 </li>
 <li>Save/Apply these changes.</li>
@@ -124,7 +124,7 @@
 <h3>Helpful Hints</h3>
 
 <ul>
-<li><p>I learned when connecting my network printer to the access point in the study that any device that is directly wired to an access point will require an assigned IP address. This is because the access point is not a DHCP server; the IP addresses are handed out by the primary router. Devices connected wirelessly to the access point will get their IP address automatically because, as a wireless access point, the access point relays the IP address served from the primary router to the connected device &mdash; but only for wireless connections.</p></li>
+<li><p>I learned when connecting my network printer to the access point in the study that any device that is directly wired to an access point will require an assigned IP address. This is because the access point is not a DHCP server; the IP addresses are handed out by the primary router. Devices connected wirelessly to the access point will get their IP address automatically because, as a wireless access point, the access point relays the IP address served from the primary router to the connected device &ndash; but only for wireless connections.</p></li>
 <li><p>To update the firmware on your access point you will first need to download the latest firmware. Then log into the access point using its static IP address and update the firmware by browsing to and selecting the file you downloaded. I am not able to download and install the latest firmware when logged into the access point, but you maybe be able to. But downloading it to your computer and then installing it manually for each of your access points will mean you only have to download it once. So it might save you a small slice of time.</p></li>
 </ul>
 
@@ -147,7 +147,7 @@
     <id>http://glevine.github.io/blog/2014/06/22/how-to-replace-bathroom-accent-tiles</id>
     <content type="html"><![CDATA[<p>I&rsquo;m constantly bumping old knowledge out of my head, replacing it with new knowledge. I felt the need to be able to hold on to the old knowledge somehow. A blog seemed like the perfect forum. So, let the brain dumping begin&hellip;</p>
 
-<p>We noticed some chipped accent tiles in our shower when we moved into our house. While watching the handyman replace the tiles, I realized that it didn&rsquo;t look so hard and I vowed to remember things like this so I would never have to hire someone to do it for me again &mdash; although some things are always better left to the pros. I just needed to write down what I was seeing because I&rsquo;ll never remember the nuances five years from now. As the man worked, I quietly typed everything he did into the Notes app on my iPhone.</p>
+<p>We noticed some chipped accent tiles in our shower when we moved into our house. While watching the handyman replace the tiles, I realized that it didn&rsquo;t look so hard and I vowed to remember things like this so I would never have to hire someone to do it for me again &ndash; although some things are always better left to the pros. I just needed to write down what I was seeing because I&rsquo;ll never remember the nuances five years from now. As the man worked, I quietly typed everything he did into the Notes app on my iPhone.</p>
 
 <h2>Materials</h2>
 
@@ -165,7 +165,7 @@
 
 <h2>Install the New Tiles</h2>
 
-<p>Estimate the size the tile should be &mdash; mark it with a pencil &mdash; and cut it to fit the hole with room for grout on all sides. It doesn&rsquo;t need to be an exact measurement.</p>
+<p>Estimate the size the tile should be &ndash; mark it with a pencil &ndash; and cut it to fit the hole with room for grout on all sides. It doesn&rsquo;t need to be an exact measurement.</p>
 
 <p>Mix the thin-set. Apply thin-set to the back of the tile with your fingers and put the tile in place. Apply more thin-set if you need to remove the tile for adjustments, but only if necessary. Use your razor blade and fingers to remove any excess thin-set, as it shouldn&rsquo;t get on the front of the tile. Place small pieces of cardboard in the cracks between tiles to hold the tile in place. Wait about 10 minutes for the thin-set to dry.</p>
 
